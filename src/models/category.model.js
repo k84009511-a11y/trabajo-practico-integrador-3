@@ -29,8 +29,8 @@ const categorySchema = new Schema(
 );
 categorySchema.virtual("events", {
   ref: "Event",
-  localdField: "_id",
+  localField: "_id",
   foreignField: "categories",
 });
 
-export const categoryModel = model("Category", categorySchema);
+export const CategoryModel = model("Category", categorySchema);

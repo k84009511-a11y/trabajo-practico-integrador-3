@@ -1,5 +1,5 @@
 import { matchedData } from "express-validator";
-import { categoryModel, CategoryModel } from "../models/category.model.js";
+import { CategoryModel } from "../models/category.model.js";
 import { EventModel } from "../models/event.model.js";
 
 export const createCategory = async (req, res) => {

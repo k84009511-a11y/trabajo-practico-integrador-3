@@ -24,7 +24,7 @@ const locationSchema = new Schema({
   },
 });
 
-const eventsSchema = new Schema(
+const eventSchema = new Schema(
   {
     title: {
       type: String,
